@@ -13,5 +13,9 @@
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         ' Puedes agregar código aquí para Button2 si deseas hacer algo cuando se haga clic
     End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Text = "hola"
+    End Sub
 End Class
 
