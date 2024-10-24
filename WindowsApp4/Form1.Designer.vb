@@ -22,17 +22,30 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.MetroButton1 = New MetroFramework.Controls.MetroButton()
         Me.SuspendLayout()
+        '
+        'MetroButton1
+        '
+        Me.MetroButton1.Location = New System.Drawing.Point(344, 182)
+        Me.MetroButton1.Name = "MetroButton1"
+        Me.MetroButton1.Size = New System.Drawing.Size(75, 23)
+        Me.MetroButton1.TabIndex = 0
+        Me.MetroButton1.Text = "MetroButton1"
+        Me.MetroButton1.UseSelectable = True
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(728, 394)
-        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.ClientSize = New System.Drawing.Size(971, 485)
+        Me.Controls.Add(Me.MetroButton1)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
 
     End Sub
+
+    Friend WithEvents MetroButton1 As MetroFramework.Controls.MetroButton
 End Class
